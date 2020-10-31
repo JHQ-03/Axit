@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Font-Family
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/****** Header css **********/
+
+header{
+    width: 100%;
+    background: black;
+}
+.nav-link{
+    color: white!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.navbar{
+    padding: 16px 16px!important;
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+
+/****** banner css **********/
+
+.banner{
+    width: 100%;
+    background: url(../img/banner.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bnr-txt{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bnr-txt h1{
+    color: white;
+    font-size: 28px;
+    margin: 35px 0;
+    text-transform: uppercase;
+    font-family: font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.bnr-txt .line {
+    height: 3px;
+    width: 80px;
+    margin: 40px 0;
+    background: white;
+}
+
+.bnr-txt p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #bbb1aa;
+    margin-bottom: 40px;
+}
+.bnr-txt button{
+    padding: 12px 30px;
+    border: none;
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+
+.banner-form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+     margin-left: 100px;
+}
+
+.banner-form .card{
+    border: none;
+}
+
+.banner-form .card .card-header h1{
+    font-size: 26px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+}
+
+.banner-form .card .card-header h1 span{
+    text-transform: uppercase;
+    color: #fda978;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.banner-form .card .card-body .form-control{
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+}
+.banner-form .card .card-body{
+    padding: 20px 32px;
+}
+.banner-form .card .card-body .form-group {
+    margin-bottom: 32px;  
+}
+.banner-form .card .card-body .form-control:focus{
+    box-shadow: none; 
+}
+
+.banner-form .card .card-body input::placeholder{
+    color: #d6d6d6;
+}
+
+.banner-form .card-footer{
+    padding: 0;
+}
+.card-footer input{
+    width: 100%;
+    padding: 15px 0; 
+    border: none;
+    background: #ff9b51;
+    color: white;
+    font-weight: 600;
+}
+
+.card-footer input:focus{
+    outline: none;
+}
+
+.soc-media {
+    width: 100%;
+    margin: 40px;
+}
+
+.soc-head h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.soc-head p {
+    font-family: 'Raleway', sans-serif;
+    color: #a4a5a8;
+    font-weight: 300;
+    padding-right: 30px;
+}
+.soc-icon{
+    padding: 27px 0;
+}
+
+.soc-icon ul{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.soc-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+.soc-icon ul li a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.soc-icon ul li a i {
+    color: #c5c2c2;
+    margin-left: 30px;
+    font-size: 45px;
+}
+
+ /******** Tab Section *********/ 
+
+.tab{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 120px 0;
+}
+.tab ul li{
+    list-style: none;
+    background: black;
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 110px;
+    height: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.tab ul li:hover{
+    background: red;
+}
+.tab .active{
+    background: #ff8b38;
+}
+
+.tab .tab-1{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.tab .tab-3{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.item-1 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.item-1 p{
+    font-family: 'Open Sans', sans-serif;
+}
+.tab button{
+    padding: 12px 30px;
+    background: #ff8b38;
+    border: none;
+    border: 2px solid #ff8b38;
+    color: white;
+    border-radius: 5px;
+}
+.tab button:focus{
+    outline: none;
+}
+
+.item-1 button{
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+    color: white;
+}
+
+.item-2 button{
+    background: red;
+    border: 2px solid red;
+    color: white;
+}
+
+.item-3 button{
+    background: tomato;
+    border: 2px solid tomato;
+    color: white;
+}
+
+.tab .col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ /******** Sub-list Section *********/
+
+
+.sub-list {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 120px 0;
+}
+
+.sub-list .head-1 h5{
+    font-weight: 700;
+}
+
+.sub-list .head-1 p {
+    padding-right: 60px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0;
+    color: #a4a5a8;
+}
+.sub-list .line {
+    border-bottom: 3px solid #ff9b51;
+    width: 52px;
+    margin: 20px 0;
+}
+
+.head-1 .cloud-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 3px solid #ff9b51;
+    line-height: 33px;
+}
+
+.head-1 .cloud-icon i {
+    font-size: 15px;
+    color: #ff9b51;
+}
+
+.head-1 .icon-txt{
+    padding-left: 0;
+}
+
+.head-1 .icon-txt h6{
+    font-weight: 700;
+}
+
+.head-1 .icon-txt p{
+    padding-right: 60px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+
+ /******** Standard Picture Section *********/
+
+
+.stnd-pic{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 60px 0;
+    background: #f5f5f5;
+}
+.right-txt{
+    padding: 80px 45px;
+}
+.stnd-pic .line{
+    border-bottom: 3px solid #ff9b51;
+    width: 52px;
+    margin: 20px 0;
+}
+.stnd-pic .right-img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+ /******** Awesome Section *********/
+
+
+.awesome{
+    width: 100%;
+    padding: 120px 0;
+}
+
+.review-content h1{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+.review-content .awesome-line{
+    border-bottom: 2px solid #ff9b51;
+    width: 70px;
+    margin: 15px auto;
+}
+
+.review-content p{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.review-icons {
+    margin: 20px 0px;
+}
+
+.review-icons i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: rgb(255, 155, 81);
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 155, 81);
+    border-image: initial;
+    border-radius: 100%;
+}
+
+.review-icons h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.review-icons p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+
+ /******** Pricing Section *********/
+
+
+.pricing{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 120px 0;
+}
+
+.pricing h1{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing .line{
+    border-bottom: 3px solid #ff9b51;
+    width: 60px;
+    margin: 25px auto;
+}
+
+.pricing p {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.price-card{
+    margin-top: 80px;
+    align-items: flex-end;
+}
+
+.price-card .card{
+    border: 0;
+}
+.price-card .card-header{
+    background: #333333;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.price-card .card-header h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.price-card .card-body{
+    background: #333333;
+    border-bottom: 5px solid #ff9b51;
+}
+.middle .card-body{
+    padding: 0;
+    border-bottom: 0;
+}
+.middle .middle-body{
+    padding: 20px;
+}
+
+.price-card .card-body h1{
+    color: white;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+}
+.price-card .card-body h1 span{
+    font-size: 40px;
+}
+
+.price-card .card-body p{
+    color: #86878b;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.price-card .card-footer{
+    padding: 0;
+    background: white;
+}
+.price-card .card-body .popular{
+    background: #ff9b51;
+}
+.price-card .card-body .popular p{
+    margin: 0;
+    color: white;
+    padding: 10px 0;
+    font-style: normal!important;
+    text-transform: uppercase;
+}
+.price-card .card-footer ul{
+    margin: 0;
+}
+.price-card .card-footer ul li{
+    list-style: none;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #86878b;
+}
+
+/******** Customer Section *********/
+
+.customer{
+    width: 100%;
+    background: #fff;
+    padding: 120px 0;
+}
+
+.customer h1{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.customer .line{
+    border-bottom: 3px solid #ff9b51;
+    width: 60px;
+    margin: 25px auto;
+}
+
+.customer p {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.review{
+    margin-top: 80px;
+}
+.review .col-md-4{
+    padding: 0 40px;
+}
+.msg-box{
+    background: #f5f5f5;
+    text-align: left;
+    padding: 20px;
+    border-radius: 4px; 
+    position: relative;
+}
+
+.box-icon{
+    height: 30px;
+    width: 30px;
+    background: #f5f5f5;
+    position: absolute; 
+    bottom: -15px;
+    left: 40px;
+    transform: rotate(45deg)
+}
+
+.msg-box p{
+    font-style: italic;
+}
+
+.user-info{
+   margin-top: 30px;
+}
+
+.user-info .col-md-4{
+    text-align: right;
+}
+
+.user-info .col-md-8{
+    text-align: left;
+}
+
+
+/******** Design Section *********/
+
+.design{
+    width: 100%;
+    background-image: url(../img/custom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.design h1{
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.design .line{
+    border-bottom: 3px solid white;
+    width: 60px;
+    margin: 25px auto;
+}
+
+.design p{
+    margin: 0;
+    font-weight: 400;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.design button{
+    padding: 12px 30px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    margin-top: 30px;
+    outline: none;
+}
+
+
+
+.contact{
+    width: 100%;
+    background: #fff;
+    padding: 120px 0;
+}
+
+.contact h1{
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.contact .line{
+    border-bottom: 3px solid #ff9b51;
+    width: 60px;
+    margin: 20px auto;
+}
+
+.contact p{
+    margin: 0;
+    font-weight: 400;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.con-frm {
+    margin-top: 80px;
+}
+
+.con-frm .form-control{
+    border: none;
+    margin-bottom: 45px;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+.con-frm .btn{
+    margin: 0 auto;
+}
+.contact button{
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 2px;
+    outline: none;
+    background: #ff9b51;
+    border: 2px solid #ff9b51;
+    color: white;
+    margin: 20px;
+    outline: none;
+}
+
+.footer{
+    width: 100%;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.footer ul li{
+    list-style: none;
+    font-size: 30px;
+    
+}
+
+.footer ul li a i{
+    margin-left: 30px;
+    color: #c5c2c2;
+}
+
+
+.footer p{
+    margin: 0;
+    font-weight: 300;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

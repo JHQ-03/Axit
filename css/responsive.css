@@ -1,0 +1,165 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .banner{
+        height: auto;
+        padding: 60px;
+    }
+    
+    .bnr-txt{
+        height: auto;
+    }
+    .banner-form{
+        height: auto;
+    }
+    
+    .banner-form {
+      margin-left: 0;  
+    }
+    
+    .bnr-txt h1{
+        font-size: 22px;
+        margin: 32px 0;
+    }
+    .bnr-txt .line{
+        margin: 24px 0;
+    }
+    .bnr-txt p {
+        margin-bottom: 22px;
+    }
+    
+    .soc-media{
+        margin: 30px;
+    }
+    
+    .soc-media .col-md-5{
+        margin: 0px;
+        padding: 0px;
+    }
+    .soc-head p{
+       padding-right: 16px; 
+    }
+    
+    .soc-icon ul{
+        margin-top: 18px;
+    }
+    .soc-icon ul li a i{
+        margin: 0;
+        margin: 0 5px;
+        font-size: 40px;
+    }
+    
+    .tab{
+        padding: 60px 0;
+    }
+    
+    .sub-list{
+        padding: 60px 0;
+    }
+    .sub-list .row{
+        flex-direction: column;
+    }
+    .sub-list .row .col-md-6{
+        max-width: 100%;
+        text-align: center;
+    }
+    .sub-list .sub-img{
+        justify-content: center;
+    }
+    .sub-list .line{
+        margin: 20px auto;
+    }
+    .sub-list .col-md-2{
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .sub-list .col-md-10{
+        max-width: 100%;
+        text-align: center;
+    }
+    .sub-list .cloud-icon{
+    }
+    
+    .stnd-pic{
+        padding: 60px 0;
+    }
+    .stnd-pic .right-img{
+        text-align: center;
+    }
+    .awesome{
+        padding: 60px 0;
+    }
+    .pricing{
+        padding: 60px 0;
+    }
+    .price-card .col-md-4{
+        padding: 0px;
+        padding: 0px 5px;
+    }
+    
+    .customer{
+        padding: 60px 0;
+    }
+    
+    .customer h1{
+        font-size: 36px
+    }
+    .review .col-md-4{
+        padding: 0 5px;
+    }
+    .review{
+        margin-top: 50px;
+    }
+    .design{
+        padding: 60px 0;
+    }
+}
+ 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 559px
+*/
+
+@media (min-width: 320px) and (max-width: 560px) {
+      
+    
+    .navbar-light .navbar-toggler{
+        border-color: blue;
+        border-radius: 2px solid blue;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner-form{
+        height: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    .bnr-txt{
+        text-align: center;
+        height: auto;
+        padding: 40px 0;
+    }
+    .bnr-txt h1{
+        font-size: 22px;
+    }
+    .banner .line{
+        margin: 20px auto;
+    }
+    .bnr-txt p{
+        font: 17px;
+    }
+    .soc-head{
+        text-align: center;
+    }
+    
+    .soc-icon ul li a i{
+        margin-left: 14px;
+        font-size: 32px; 
+    }
+}

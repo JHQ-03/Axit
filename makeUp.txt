@@ -1,0 +1,7 @@
+Axit PSD
+
+Color: 
+
+Banner: ff9b51, ff8b38, 
+
+Font-Family: Raleway, OpenSans Bold
